@@ -53,7 +53,7 @@ function googleAnalyticsMiddleware(data) {
 }
 
 var unblockerConfig = {
-    prefix: '/www.speedtest.net/',
+    prefix: '208.54.35.70/speedtest/',
     responseMiddleware: [
         googleAnalyticsMiddleware
     ]
